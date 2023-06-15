@@ -28,6 +28,38 @@ public class CarDealership {
         return this.inventory.size();
     }
 
+    public double getBudget() {
+        return budget;
+    }
+
+    public void setBudget(double budget) {
+        this.budget = budget;
+    }
+
+    public double getMoneyMade() {
+        return moneyMade;
+    }
+
+    public void setMoneyMade(double moneyMade) {
+        this.moneyMade = moneyMade;
+    }
+
+    public ArrayList<Car> getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(ArrayList<Car> inventory) {
+        this.inventory = inventory;
+    }
+
+    public double getDealerMarkUp() {
+        return dealerMarkUp;
+    }
+
+    public void setDealerMarkUp(double dealerMarkUp) {
+        this.dealerMarkUp = dealerMarkUp;
+    }
+
     public static void main(String[] args) {
         CarDealership tonysCarSales = new CarDealership();
 
